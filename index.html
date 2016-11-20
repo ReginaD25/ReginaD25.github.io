@@ -3,46 +3,78 @@
 		<title>Bootstrap</title>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="https://v4-alpha.getbootstrap.com/dist/css/bootstrap.min.css">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
 	</head>
 	<body>
+		<nav class="navbar navbar-dark bg-primary">
+      		<div class="container">
+        		<a class="navbar-brand">Hrani s keramikou</a>
+        			<ul class="nav navbar-nav pull-right">
+          				<li class="nav-item active">
+            			<a class="nav-link" href="#">About</a>
+          				</li>
+          				<li class="nav-item">
+          				<a class="nav-link" href="#">Link2</a>
+          				</li>
+          				<li class="nav-item">
+						<a class="nav-link" href="#">Link 3</a>
+						</li>
+					</ul>
+			</div>
+		</nav>
 	<div class="container">
 		<div class="row">
-			<div class="col-md-2 col-sm-12">
-			This is meant to be a menu
-			</div>
-			<div class="col-md-10 col-sm-12">
-			What does all of this mean? Well, the grid system is used for creating page layouts through a series of rows and columns that house our content. The width of a page is measured with 12 columns. If we'd like to have 3 columns as the example above, then we use a column selection of 4-4-4. For two columns we can use a selection of 6-6 or 4-8.
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-4 sidebar">
+			<div class="col-md-4 col-sm-12 sidebar">
 				<p>side bar</p>
 				<div class="card">
 					<div class="card-block">
 						<div class="image-center">
-							<img src="https://images.sunshine.co.uk/ss/whereshot/may-s.jpg" class="img-circle" width="250" height="250">
+							<img class="temple animated bounce" src="https://images.sunshine.co.uk/ss/whereshot/may-s.jpg" class="img-circle img-responsive" heigh="250px" width="250px">
 						</div> 
 						<br>
 						<h4 class="card-title">Grumpy Cat
 						</h4>
 						<p class="card-text">More text goes here
-						<ul>
-						<li>grumpy1</li>
-						<li>grumpy2</li>	
-						<li>grumpy3</li>
-						</ul>
+							<ul>
+								<li>grumpy1</li>
+								<li>grumpy2</li>	
+								<li>grumpy3</li>
+							</ul>
 						</p>
 					</div>
+					<div class="card-footer">
+			              <a>
+			                <i class="animated infinite flip fa fa-linkedin-square"></i>
+			              </a>
+			              <a>
+			                <i class="fa fa-twitter"></i>
+			              </a>
+			              <a>
+			                <i class="fa fa-facebook-square"></i>
+			              </a>
+			              <a>
+			                <i class="fa fa-spotify"></i>
+			              </a>
+			              <a>
+			              	<i class="fa fa-pinterest"></i>
+			              </a>
+			         </div>
 				</div> 
 				<div class="card">
 					<div class="card-block"> 
 						<h4 class="card-title">Happy Cat
-						</h4>
-						<p class="card-text">What is happiness?<br>
-						Still not sure!<br>
-						Anyone out there can help??<br>
+						</h4><br>
+						<p class="card-text">
+							<i class="fa fa-heart"></i>
+							What is happiness?<br><br>
+							<i class="fa fa-map-marker">
+							</i>
+							Still not sure!<br><br>
+							<i class="fa fa-graduation-cap"></i>
+							Anyone out there can help??<br><br>
 						</p>
 					</div>
 				</div> 
@@ -64,7 +96,7 @@
 					</div>
 				</div> 
 			</div>
-			<div class="col-md-8 right-column">Main content will be added here
+			<div class="col-md-8 col-sm-12 right-column">Main content will be added here
 				<div class="card">
 					<div class="card-block"> 
 						<h4 class="card-title">About me
@@ -91,8 +123,5 @@
 				</div> 
 			</div>
 		</div>
-		
-<img src="img/image1.jpeg"
-
 	</body>
 </html>

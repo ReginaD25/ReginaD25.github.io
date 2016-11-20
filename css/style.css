@@ -1,3 +1,7 @@
+body {
+	font-family: 'Titillium Web', sans-serif;
+}
+
 .sidebar {
 	background-color: red;
 }
@@ -21,4 +25,16 @@ h4 {
 
 .image-center {
 	text-align: center;
+}
+.navbar{
+	background-color: blue;
+}
+.card-footer{
+	text-align: center;
+    font-size: 30px;
+}
+/*.temple {
+	width: 100%;
+	border-radius: 50%;	
+	height: 250px;*/
 }
