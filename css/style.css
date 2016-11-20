@@ -1,0 +1,24 @@
+.sidebar {
+	background-color: red;
+}
+
+.right-column {
+	background-color: green;
+}
+h4 {
+	text-align: center;
+}
+.bold{
+	font-style: bold;
+	text-align: left;
+}
+.display{
+	/*display: inline-block;*/
+}
+.right{
+	text-align: right;
+}
+
+.image-center {
+	text-align: center;
+}
